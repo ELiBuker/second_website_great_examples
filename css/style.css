@@ -46,4 +46,18 @@ nav a:hover{
 	background-size:cover;
 	/*background-repeat:no-repeat;*/
 	padding:500px 20px;
+	background-image:center;
+	text-align:center;
+	color:#fff;
+
+}
+.just-content{
+	background-color:#fff;
+	padding:20px;
+	margin:20px;
+}
+.img-half{
+	width:70%;
+	display:block;
+	margin:10px auto;
 }
