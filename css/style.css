@@ -1,13 +1,22 @@
 
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lobster|Pacifico');
 *{
 	box-sizing:border-box;
 	padding:0;
 	margin:0;
 
+
 }
 body{
 	background-color: orange;
+	font-family: 'Indie Flower', cursive;
 
+}
+h2{
+	background-color:pink;
+	margin:10px 0;
+	padding:10px;
+	font-family: 'Pacifico', cursive;
 }
 h1{
 /*background: rgb(25,250,200);*/
@@ -16,6 +25,7 @@ text-align:center;
 font-size:90px;
 color:#fff;
 background-position:center center;
+font-family: 'Lobster', cursive;
 }
 
 nav ul{
@@ -60,4 +70,12 @@ nav a:hover{
 	width:70%;
 	display:block;
 	margin:10px auto;
+}
+
+
+/* These are Utility Classes
+==================================*/
+
+.center-text {
+	text-align:center;
 }
